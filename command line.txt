@@ -1,0 +1,8 @@
+composer require symfony/webpack-encore-pack
+yarn install
+yarn add bootstrap@4.0.0
+yarn add holderjs
+yarn add popper.js@1.12.9
+yarn add jquery@3.3.1
+php bin/console server:run
+yarn encore dev
