@@ -64,6 +64,7 @@ class BlogController extends AbstractController
         $posts[uniqid()] = [
             'title' => 'A random title '.rand(1,500),
             'text' => 'Some random text nr '.rand(1,500),
+            'date' => new \DateTime()
         ];
         $this->session->set('posts', $posts);
         return new RedirectResponse($this->router->generate('blog_index'));
