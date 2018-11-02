@@ -18,3 +18,5 @@ composer require --dev doctrine/doctrine-fixtures-bundle
 php bin/console doctrine:fixtures:load
 composer require symfony/form
 composer require symfony/validator doctrine/annotations
+composer require symfony/security-bundle
+php bin/console make:entity
