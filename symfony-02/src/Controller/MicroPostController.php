@@ -9,6 +9,7 @@
 namespace App\Controller;
 
 use App\Entity\MicroPost;
+use App\Entity\User;
 use App\Form\MicroPostType;
 use App\Repository\MicroPostRepository;
 use function Couchbase\passthruEncoder;
@@ -95,7 +96,8 @@ class MicroPostController{
     public function add(Request $request, TokenStorageInterface $tokenStorage){
         $user = $tokenStorage->getToken()->getUser();
         $microPost = new MicroPost();
-        $microPost->setTime(new \DateTime());
+//        $microPost->setTime(new \DateTime());
+        $microPost->setUser($user);
 
         $form = $this->formFactory->create(MicroPostType::class, $microPost);
         $form->handleRequest($request);
@@ -154,6 +156,21 @@ class MicroPostController{
         $this->flashBag->add('notice', 'Micro Post deleted');
 
         return new RedirectResponse($this->router->generate('micro_post_index'));
+    }
+
+    /**
+     * @Route("/user/{username}", name="micro_post_user")
+     */
+    public function userPosts(User $userWithPosts){
+        $html = $this->twig->render('micro-post/user-posts.html.twig', [
+            'posts' => $userWithPosts->getPosts(),
+            'user' => $userWithPosts
+//            'posts' => $this->microPostRepository->findBy(
+//                ['user'=> $userWithPosts],
+//                ['time'=>'DESC'])
+        ]);
+
+        return new Response($html);
     }
 
     /**
