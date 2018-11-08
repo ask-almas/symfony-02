@@ -270,4 +270,11 @@ class User implements UserInterface, \Serializable{
     public function eraseCredentials(){
         // TODO: Implement eraseCredentials() method.
     }
+
+    public function follow(User $userToFollow){
+        if($this->getFollowing()->contains($userToFollow)){
+            return;
+        }
+        $this->getFollowing()->add($userToFollow);
+    }
 }
