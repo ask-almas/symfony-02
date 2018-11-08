@@ -20,3 +20,4 @@ composer require symfony/form
 composer require symfony/validator doctrine/annotations
 composer require symfony/security-bundle
 php bin/console make:entity
+php bin/console security:check
