@@ -9,6 +9,7 @@
 namespace App\Twig;
 
 
+use App\Entity\LikeNotification;
 use Symfony\Bundle\TwigBundle\DependencyInjection\TwigExtension;
 use Twig\Extension\AbstractExtension;
 use Twig\Extension\GlobalsInterface;
@@ -39,5 +40,15 @@ class AppExtension extends AbstractExtension implements GlobalsInterface {
 
     public function priceFilter($number){
         return '$'.number_format($number, 2, '.', ',');
+    }
+
+    public function getTests(){
+        return [
+            new \Twig_SimpleTest(
+                'like', function ($ogj){
+                    return $ogj instanceof LikeNotification;
+                }
+            )
+        ];
     }
 }

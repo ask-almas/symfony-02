@@ -21,3 +21,11 @@ composer require symfony/validator doctrine/annotations
 composer require symfony/security-bundle
 php bin/console make:entity
 php bin/console security:check
+sudo apt-get install php-xml
+composer install
+(install xampp)
+sudo apt install php-mysql
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+yarn add webpack-notifier --dev
+yarn encore dev
