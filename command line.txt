@@ -29,3 +29,6 @@ curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 yarn add webpack-notifier --dev
 yarn encore dev
+composer require symfony/event-dispatcher
+composer require mailer
+php bin/console swiftmailer:spool:send --env=prod --message-limit=10

@@ -6,6 +6,7 @@
 parameters:
     locale: 'en'
     hello_message: 'Hello from service'
+    mailer_from: '%env(MAILER_FROM)%'
 
 services:
     # default configuration for services in *this* file
@@ -50,3 +51,7 @@ services:
             - {name: doctrine.event_subscriber, connection: default}
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+
+    App\Mailer\Mailer:
+        arguments:
+            $mailerFrom: '%mailer_from%'
