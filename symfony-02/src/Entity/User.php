@@ -93,7 +93,7 @@ class User implements UserInterface, \Serializable{
     private $postsLiked;
 
     /**
-     * @ORM\Column(type="string", nullable=true)
+     * @ORM\Column(type="string", nullable=true, length=30)
      */
     private $confirmationToken;
 
@@ -279,7 +279,8 @@ class User implements UserInterface, \Serializable{
         return serialize([
             $this->id,
             $this->username,
-            $this->password
+            $this->password,
+            $this->enabled
         ]);
     }
 
@@ -295,7 +296,8 @@ class User implements UserInterface, \Serializable{
     public function unserialize($serialized){
         list($this->id,
              $this->username,
-             $this->password) = unserialize($serialized);
+             $this->password,
+             $this->enabled) = unserialize($serialized);
     }
 
     /**
@@ -332,5 +334,17 @@ class User implements UserInterface, \Serializable{
     public function getPostsLiked()
     {
         return $this->postsLiked;
+    }
+
+    public function checkPreAuth(UserInterface $user){
+        if (!$user instanceof User) {
+            return;
+        }
+    }
+
+    public function checkPostAuth(UserInterface $user){
+        if (!$user instanceof User) {
+            return;
+        }
     }
 }
