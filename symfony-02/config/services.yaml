@@ -55,3 +55,18 @@ services:
     App\Mailer\Mailer:
         arguments:
             $mailerFrom: '%mailer_from%'
+
+    Symfony\Component\HttpFoundation\Session\Storage\Handler\PdoSessionHandler:
+        arguments:
+#            - 'mysql:dbname=session_db'
+#            - {db_username: user, db_password: my_password}
+             - !service {class: PDO, factory: 'database_connection:getWrappedConnection' }
+             - { lock_mode: 1 }
+
+    App\Event\LocaleSubscriber:
+        arguments:
+            - '%kernel.default_locale%'
+
+    App\Event\UserSubscriber:
+        arguments:
+            $defaultLocale: '%kernel.default_locale%'
