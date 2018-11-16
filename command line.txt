@@ -33,3 +33,7 @@ composer require symfony/event-dispatcher
 composer require mailer
 php bin/console swiftmailer:spool:send --env=prod --message-limit=10
 composer require translator
+composer require --dev symfony/phpunit-bridge
+sudo apt-get install php7.2-mbstring
+sudo apt install zip unzip php7.2-zip
+./vendor/bin/simple-phpunit
