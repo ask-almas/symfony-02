@@ -36,7 +36,7 @@ services:
 
 #    app.greeting:
 #        public: true
-#        alias: App\Service\Greeting
+#       Section: 13 alias: App\Service\Greeting
 
 #    App\Service\Greeting:
 #        arguments:

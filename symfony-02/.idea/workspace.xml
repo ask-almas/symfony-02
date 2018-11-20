@@ -2,17 +2,131 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="353a34c8-843c-4cb7-bf09-56b5c3ded523" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/Mailer/MailerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Security/TokenGeneratorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.circleci/comfig.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../command line.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../command line.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/symfony-02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony-02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Security/UserChecker.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Security/UserChecker.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180530100005.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180530100244.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180530140243.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180530192556.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180601070723.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180601072754.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180601073334.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180601142057.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180604143814.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180605135755.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180605140011.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180606075447.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180606133725.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180606134748.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180606140546.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180606144822.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180606150719.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180607065538.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180607094724.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180607120038.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180607144533.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180608074730.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180608102047.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180608124034.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180608145623.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180611092708.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180611113704.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180611122012.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180611142225.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180611150035.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180612085918.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180612125958.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180613074312.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180613080453.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180613094655.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180613141816.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180614144149.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180615072649.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180615074232.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180615090448.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180704073936.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180705084348.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180705084617.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180705085507.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180705143906.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180706135900.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180706144251.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180709091217.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180709091527.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180709091623.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180710080331.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180710092716.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180711080143.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180712072427.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180712073001.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180712074150.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180713124411.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180716100042.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180716180042.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180717085012.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180717113558.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180717123734.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180717123834.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180717152837.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180718070533.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180723075611.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180723125942.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180723141018.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180723141952.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180725135804.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180801142532.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180801143514.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180803141415.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180806071557.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180806075147.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180806112240.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180806134346.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180807071153.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180807071240.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180807071653.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180807112705.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180807114605.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180809073104.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180810084250.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180813110345.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180813110346.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180813110347.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180817092957.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180817103030.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180820140941.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180821143618.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180822065306.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180822131128.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180822134040.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180823122903.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180828073257.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180828080835.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180829095752.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180829151958.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180831115803.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180831124655.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180831131430.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180831131926.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180903102758.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180904093522.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20180904094451.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20181023085643.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20181029153157.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20181106132307.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/app/DoctrineMigrations/Version20181106140133.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../real-estate-auction/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../real-estate-auction/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../real-estate-auction/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/src/GNS/AuctionBundle/Command/GenerateProtocolCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../real-estate-auction/src/GNS/AuctionBundle/Command/GenerateProtocolCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/var/bootstrap.php.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../real-estate-auction/var/bootstrap.php.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/web/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../real-estate-auction/web/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../real-estate-auction/websocket/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../real-estate-auction/websocket/deploy.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +148,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost [2]" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -128,49 +237,68 @@
     <session id="-102474635">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="console" value="3" />
+          <entry key="console" value="5" />
           <entry key="css" value="2" />
-          <entry key="dist" value="4" />
-          <entry key="env" value="6" />
+          <entry key="dist" value="8" />
+          <entry key="env" value="9" />
+          <entry key="example" value="1" />
           <entry key="gitignore" value="1" />
+          <entry key="htaccess" value="2" />
           <entry key="ini" value="1" />
-          <entry key="js" value="2" />
-          <entry key="json" value="3" />
-          <entry key="lock" value="3" />
-          <entry key="php" value="47" />
+          <entry key="jpeg" value="3" />
+          <entry key="js" value="13" />
+          <entry key="json" value="8" />
+          <entry key="lock" value="5" />
+          <entry key="log" value="1" />
+          <entry key="md" value="5" />
+          <entry key="message" value="5" />
+          <entry key="php" value="94" />
           <entry key="phpunit" value="2" />
+          <entry key="png" value="2" />
+          <entry key="sh" value="13" />
           <entry key="sql" value="3" />
-          <entry key="twig" value="22" />
+          <entry key="symfony_requirements" value="3" />
+          <entry key="twig" value="26" />
+          <entry key="vue" value="4" />
           <entry key="xlf" value="4" />
-          <entry key="yaml" value="34" />
+          <entry key="yaml" value="44" />
+          <entry key="yml" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
+          <entry key="Image" value="5" />
           <entry key="Ini" value="1" />
-          <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="2" />
-          <entry key="PHP" value="52" />
-          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="JSON" value="10" />
+          <entry key="JavaScript" value="13" />
+          <entry key="Markdown" value="5" />
+          <entry key="PHP" value="104" />
+          <entry key="PLAIN_TEXT" value="42" />
           <entry key="Scratch" value="3" />
-          <entry key="Twig" value="22" />
+          <entry key="Twig" value="26" />
+          <entry key="Vue.js" value="4" />
           <entry key="XML" value="1" />
-          <entry key="YAML" value="34" />
-          <entry key="yarn.lock" value="1" />
+          <entry key="YAML" value="69" />
+          <entry key="htaccess" value="2" />
+          <entry key="yarn.lock" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -180,12 +308,12 @@
       <usages-collector id="statistics.php.composer.command.options" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="3325" />
+          <entry key="PHP" value="3337" />
           <entry key="PLAIN_TEXT" value="62" />
           <entry key="SQL" value="2" />
           <entry key="Twig" value="518" />
           <entry key="XML" value="4" />
-          <entry key="YAML" value="626" />
+          <entry key="YAML" value="1467" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -198,54 +326,22 @@
         <counts>
           <entry key="dist" value="14" />
           <entry key="env" value="52" />
-          <entry key="php" value="3326" />
+          <entry key="php" value="3338" />
           <entry key="phpunit" value="1" />
           <entry key="twig" value="518" />
-          <entry key="yaml" value="626" />
+          <entry key="yaml" value="627" />
+          <entry key="yml" value="840" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Security/UserChecker.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
-              <folding>
-                <element signature="e#114#134#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="37" selection-start-column="37" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/Mailer/MailerTest.php">
+        <entry file="file://$PROJECT_DIR$/.circleci/comfig.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-              <folding>
-                <element signature="e#119#139#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/phpunit">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" />
+            <state relative-caret-position="465">
+              <caret line="31" column="89" selection-start-line="31" selection-start-column="89" selection-end-line="31" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -256,7 +352,29 @@
     <findStrings>
       <find>debug</find>
       <find>mysql</find>
+      <find>abstractmy</find>
+      <find>abstractmysqldrive</find>
+      <find>v</find>
+      <find>vue</find>
+      <find>render</find>
+      <find>html.twig</find>
+      <find>index.html</find>
+      <find>ProtocolService</find>
+      <find>@Route</find>
+      <find>not_found</find>
+      <find>@Route(&quot;/</find>
+      <find>u0022</find>
+      <find>generate-protocol</find>
+      <find>/api/doc</find>
+      <find>lots</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/../../../real-estate-auction/src/GNS/UserBundle</dir>
+      <dir>$PROJECT_DIR$/../../../real-estate-auction/src/GNS</dir>
+      <dir>$PROJECT_DIR$/../../../real-estate-auction/src</dir>
+      <dir>$PROJECT_DIR$/../../../real-estate-auction</dir>
+      <dir>$PROJECT_DIR$/../../../real-estate-auction/web</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -264,13 +382,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Form/MicroPostType.php" />
-        <option value="$PROJECT_DIR$/templates/register/register.html.twig" />
-        <option value="$PROJECT_DIR$/src/Form/UserType.php" />
-        <option value="$PROJECT_DIR$/src/Security/MicroPostVoter.php" />
-        <option value="$PROJECT_DIR$/src/Migrations/Version20181106055303.php" />
-        <option value="$PROJECT_DIR$/templates/micro-post/raw-post.html.twig" />
-        <option value="$PROJECT_DIR$/templates/micro-post/user-posts.html.twig" />
         <option value="$PROJECT_DIR$/templates/micro-post/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Controller/FollowingController.php" />
         <option value="$PROJECT_DIR$/src/Entity/MicroPost.php" />
@@ -306,7 +417,6 @@
         <option value="$PROJECT_DIR$/src/Entity/UserPreferences.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" />
         <option value="$PROJECT_DIR$/src/Entity/User.php" />
-        <option value="$PROJECT_DIR$/config/services.yaml" />
         <option value="$PROJECT_DIR$/src/Event/UserSubscriber.php" />
         <option value="$PROJECT_DIR$/src/Event/UserLocaleSubscriber.php" />
         <option value="$PROJECT_DIR$/config/packages/translation.yaml" />
@@ -315,6 +425,14 @@
         <option value="$PROJECT_DIR$/bin/phpunit" />
         <option value="$PROJECT_DIR$/tests/Security/TokenGeneratorTest.php" />
         <option value="$PROJECT_DIR$/tests/Mailer/MailerTest.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/../../../real-estate-auction/src/GNS/ApiBundle/Controller/Admin/FAQController.php" />
+        <option value="$PROJECT_DIR$/../../../real-estate-auction/vendor/symfony/phpunit-bridge/Legacy/CoverageListenerForV7.php" />
+        <option value="$PROJECT_DIR$/../../../real-estate-auction/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/../../../real-estate-auction/src/GNS/AuctionBundle/Command/GenerateProtocolCommand.php" />
+        <option value="$PROJECT_DIR$/../../../real-estate-auction/src/GNS/ApiBundle/Controller/Admin/UserController.php" />
+        <option value="$PROJECT_DIR$/config/services.yaml" />
+        <option value="$PROJECT_DIR$/.circleci/comfig.yml" />
       </list>
     </option>
   </component>
@@ -332,10 +450,20 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/../../../real-estate-auction/web/node_modules" />
+    <handled-path value="$PROJECT_DIR$/../../../real-estate-auction/websocket/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/../../../real-estate-auction/vendor/sonata-project/core-bundle/src/Resources/public/vendor/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/../../../real-estate-auction/vendor/sonata-project/core-bundle/src/Resources/public/vendor/components-font-awesome/package.json" />
+      <path value="$PROJECT_DIR$/../../../real-estate-auction/vendor/sonata-project/core-bundle/src/Resources/public/vendor/eonasdan-bootstrap-datetimepicker/package.json" />
+      <path value="$PROJECT_DIR$/../../../real-estate-auction/vendor/sonata-project/core-bundle/src/Resources/public/vendor/select2/package.json" />
+      <path value="$PROJECT_DIR$/../../../real-estate-auction/vendor/sonata-project/media-bundle/src/Resources/public/nivo-gallery/package.json" />
+      <path value="$PROJECT_DIR$/../../../real-estate-auction/web/bundles/sonatamedia/nivo-gallery/package.json" />
+      <path value="$PROJECT_DIR$/../../../real-estate-auction/web/package.json" />
+      <path value="$PROJECT_DIR$/../../../real-estate-auction/websocket/package.json" />
     </packageJsonPaths>
   </component>
   <component name="PhpServers">
@@ -454,6 +582,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -461,22 +590,16 @@
               <item name="symfony-02" type="b2602c69:ProjectViewProjectNode" />
               <item name="symfony-02" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="symfony-02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="symfony-02" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../real-estate-auction" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -559,16 +682,22 @@
       <workItem from="1542167594024" duration="14260000" />
       <workItem from="1542253992868" duration="4695000" />
       <workItem from="1542265020984" duration="7406000" />
+      <workItem from="1542342719910" duration="13011000" />
+      <workItem from="1542600318761" duration="5437000" />
+      <workItem from="1542608969241" duration="1215000" />
+      <workItem from="1542611861736" duration="13925000" />
+      <workItem from="1542685980666" duration="9241000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234943000" />
+    <option name="totallyTimeSpent" value="277772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17348485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16818182" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -583,6 +712,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3279743" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -596,318 +726,284 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Twig/AppExtension.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/NotificationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="60" column="78" selection-start-line="60" selection-start-column="78" selection-end-line="60" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/NotificationRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="34" column="39" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/notification/notifications.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/bundles.php">
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/src/GNS/AppBundle/Service/CalendarService.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/swiftmailer.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/src/GNS/AppBundle/Exception/ApiCallException.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/dev/swiftmailer.yaml">
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/src/GNS/AuctionBundle/DependencyInjection/Configuration.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/src/GNS/AuctionBundle/Listener/LotListener.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/src/GNS/AuctionBundle/Service/ProtocolService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/src/GNS/ApiBundle/Controller/Admin/FAQController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2443">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/JsonResponseTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/fixtures/resources.dump.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/vendor/symfony/phpunit-bridge/Legacy/CoverageListenerForV7.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/web/apple-touch-icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/web/ecosystem.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/web/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/codeception.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/web/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20181112131709.php" />
-    <entry file="file://$PROJECT_DIR$/src/Mailer/Mailer.php">
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/websocket/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="195">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/app/config/config_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/web/api/accounts.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/web/node_modules/vue/dist/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/src/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/src/GNS/ApiBundle/Controller/App/User/DocumentTypeController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/src/GNS/ApiBundle/Controller/App/User/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/src/GNS/AppBundle/DataFixtures/ORM/LoadBidDataFixtures.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/web/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="300">
+            <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/src/GNS/ApiBundle/Controller/App/Content/FAQController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/bin/console">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/web/deploy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/deploy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/web/middleware/lotEdit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/web/api/lots.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/src/GNS/ApiBundle/Controller/Admin/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
           <folding>
-            <element signature="e#6#87#0#PHP" expanded="true" />
+            <element signature="e#50#101#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/MicroPostType.php">
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="345">
+            <caret line="23" column="79" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/var/mails/default/tb234b6VKC.message">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="114" column="16" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/var/mails/default/sAD3vcpoX8.message">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/register/register.html.twig">
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/var/mails/default/MWXkTCkjEb.message">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Security/TokenGenerator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/MicroPostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="185" lean-forward="true" selection-start-line="185" selection-end-line="185" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Blog/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/var/mails/default/0rlI8NnAAX.message">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/micro-post/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/var/mails/default/LYRm-mAHw-.message">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Security/MicroPostVoter.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="360">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/security/confirmation.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/RegisterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-178">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/SecurityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/email/registration.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/translations/messages.en.xlf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-664" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/translations/messages.fr.xlf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-529" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/micro-post/user-posts.html.twig">
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/web/pages/index.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <element signature="e#788#829#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20181113052900.php">
+    <entry file="file://$PROJECT_DIR$/../../../real-estate-auction/src/GNS/AuctionBundle/Command/GenerateProtocolCommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20181112132250.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20181114084807.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Event/UserRegisterEvent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/framework.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/UserPreferences.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Event/LocaleSubscriber.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="105" column="81" selection-start-line="105" selection-start-column="81" selection-end-line="105" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Event/UserSubscriber.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Event/UserLocaleSubscriber.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="45" column="77" selection-start-line="45" selection-start-column="77" selection-end-line="45" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataFixtures/AppFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="113" column="48" selection-start-line="113" selection-start-column="48" selection-end-line="113" selection-end-column="48" />
+        <state relative-caret-position="482">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/services.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+        <state relative-caret-position="15">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/translation.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/doctrine_migrations.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/framework.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/routing.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/symfony.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.lock">
+    <entry file="file://$PROJECT_DIR$/config/packages/swiftmailer.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/config/packages/dev/web_profiler.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/console">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Security/UserChecker.php">
+    <entry file="file://$PROJECT_DIR$/.circleci/comfig.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#114#134#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/phpunit">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Security/TokenGeneratorTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding>
-            <element signature="e#121#153#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Mailer/MailerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-          <folding>
-            <element signature="e#119#139#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="465">
+          <caret line="31" column="89" selection-start-line="31" selection-start-column="89" selection-end-line="31" selection-end-column="89" />
         </state>
       </provider>
     </entry>

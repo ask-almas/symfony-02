@@ -85,5 +85,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="real-estate-auction" />
   </component>
 </module>

@@ -24,7 +24,9 @@
         "symfony/validator": "*",
         "symfony/web-server-bundle": "*",
         "symfony/webpack-encore-pack": "^1.0",
-        "symfony/yaml": "*"
+        "symfony/yaml": "*",
+        "ext-gd": "*",
+        "ext-json": "*"
     },
     "require-dev": {
         "doctrine/doctrine-fixtures-bundle": "^3.0",

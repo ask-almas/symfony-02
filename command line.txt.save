@@ -53,18 +53,4 @@ a2enmod php7.2
 service apache2 restart
 php -v
 sudo apt-get install mysql-server
-npm run dev
-export DATABASE_URL=mysql://root:root@127.0.0.1:3306/micropost
-APP_ENV=$APP_ENV DATABASE_URL=$DATABASE_URL  php bin/console doctrine:migrations:migrate
-
-mysql> USE mysql;
-mysql> UPDATE user SET plugin='mysql_native_password' WHERE User='root';
-mysql> FLUSH PRIVILEGES;
-mysql> exit;
-
-$ service mysql restart
-export APP_ENV=prod
-export DATABASE_URL=mysql://root:@localhost:3306/micropost
-export MAILER_FROM=me@me.com
-export MAILER_URL=
-
+/home/almas/Downloads/Projects/new/real-estate-auction/web/node_modules
